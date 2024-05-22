@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(41, 141, 41);
+}
+
+#gameContainer {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-image: url('img/background.png');
+    background-size: cover;
+    border: 5px solid #000;
+    overflow: hidden;
+}
+
+.bird {
+    position: absolute;
+    width: 40px;
+    /* Juster størrelsen etter bildet */
+    height: 40px;
+    background-image: url('img/bird.png');
+    /* URL til bildet */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pipe {
+    position: absolute;
+    width: 50px;
+    background-color: rgb(41, 141, 41);
+    border: 2px solid #000;
+
+    /* Legg til denne linjen for å sikre at høyden til rørene dekker hele spillkonteineren */
+}
+
+.game-over-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.763);
+    background-image: url('img/background.png');
+    background-size: cover;
+    border: 3px solid black;
+    width: 700px;
+    height: 500px;
+
+}
+
+.game-over-message div {
+    margin: 40px;
+    /* Legg til ønsket avstand mellom hvert avsnitt */
+}
+
+
+#score {
+    color: rgba(0, 0, 0, 0.432);
+    padding-top: 20%;
+    text-align: center;
+    font-size: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#highscore {
+    color: rgba(0, 0, 0, 0.432);
+    padding-top: 20%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.coin {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
