@@ -3,7 +3,7 @@
 - The game is made for a school project by jscode1003. The project consists of game.js, index.html and styles.css + bird.png and background.png. The game is coded in OOP with inheritance from GameObject to Bird, Pipe and Coin. The game is mainly made with JavaScript, but has html and css files to make the project clear and openable.
 
 ## Link to vercel
-!Link to [Vercel version](https://cappy-bird.vercel.app/)
+- Link to [Vercel version](https://cappy-bird.vercel.app/)
 ## Recipe to hack the game
 - Open game by opening index.html in web, once loaded, the game runs purely client side or use the web vercel version 
 - Press space to start the game
